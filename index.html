@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="" href="assets/icon1.svg">
+  <!--   Scripts Carrosel-Icons -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+  <!--   Scripts Carrosel-Icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap">
+  <link rel="stylesheet" href="index.css">
+
+  <title>MatchFinder</title>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="carrosel-img.js"> </script>
+  <script src="carousel-icons.js"> </script>
+</head>
+
+<body class="body-img">
+  <header>
+    <nav>
+      <a href="index.html">
+        <img id="logo" src="img/logo.png" />
+      </a>
+      <ul class="nav-list">
+        <li><a href="login.html"><img src="img/key.png" /></a></li>
+        <li><a href="add.html"><img src="img/high-five.png" /></a></li>
+        <li><a href="user.html"><img src="img/user.png" /></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+
+    <!--   Bullets do carrossel, se aumentar uma imagem, aumente um li e acrescento o próximo número -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="lobbycs.html"><img src="img/cs (1).jpg"></a>
+        <div class="titulo">
+          <p></p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="lobbyfort.html"><img src="img/fort (1).jpg"></a>
+        <div class="titulo">
+          <p></p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="lobbywar.html"><img src="img/cod.jpg"></a>
+        <div class="titulo">
+          <p></p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="lobbychat.html"><img src="img/vava.jpg"></a>
+        <div class="titulo">
+          <p></p>
+        </div>
+      </div>
+
+    </div> <!-- Fecha elementos dentro do carrossel -->
+
+    <!--   Controladores | Botões -->
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"> Previous </span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"> Next </span>
+    </a>
+  </div> <!-- Fim do carrossel -->
+
+</body>
+
+
+<body class="img-icons">
+
+  <div class="container">
+
+    <div class="gallery-wrapper">
+      <a href="lobbycs.html">
+        <div><img src="img/logocs2.png" class="item current-item" /></div>
+      </a>
+      <a href="lobbydota.html">
+        <div><img src="img/logodota.png" class="item current-item" /></div>
+      </a>
+      <a href="lobbyfort.html">
+        <div><img src="img/logofort.png" class="item current-item" /></div>
+      </a>
+      <a href="lobbylol.html">
+        <div><img src="img/logolol.png" class="item current-item" /></div>
+      </a>
+      <a href="lobbyr6.html">
+        <div><img src="img/logor6.png" class="item current-item" /></div>
+      </a>
+      <a href="lobbychat.html">
+        <div><img src="img/logovava.png" class="item current-item" /></div>
+      </a>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
