@@ -16,7 +16,6 @@ a {
   color: whitesmoke;
   text-decoration: none;
   transition: 0.3s;
-  flex-flow: row nowrap;
 }
 
 .logo {
@@ -45,6 +44,18 @@ nav {
   margin-left: 32px;
 }
 
+.nav-list li:hover {
+transform: scale(1.1);
+
+filter: brightness(30);
+text-emphasis: ;
+
+}
+.ic1:hover:hover {
+  transform: scale(1.1);
+  
+  }
+
 /*  ESTILO TELA PRINCIPAL */
 
 .games nav {
@@ -58,6 +69,7 @@ nav {
   margin-top: 14px;
   border-radius: 15px;
   border: 1px;
+  
 }
 
 /* ESTILO PADRÀO */
@@ -68,7 +80,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(180deg, #8C52FF 0%, rgba(2, 1, 4, 0.97) 99.99%, rgba(0, 0, 0, 0) 100%);
   color: #3E497A;
-  text-align: center;
 }
 
 ul {
@@ -76,10 +87,6 @@ ul {
   background-color: none;
 }
 
-section {
-  padding: 4rem 0;
-  background: none;
-}
 
 img {
   display: block;
@@ -335,3 +342,4 @@ span {
   opacity: 1;
   gap: 35px
 }
+
